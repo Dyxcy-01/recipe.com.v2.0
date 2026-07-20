@@ -18,8 +18,8 @@ video{
     display: flex;
     align-items: center;
     justify-content: center;
-    height: 100vh;
-    top: -50px;
+    /* height: 100vh; */
+    /* top: -50px; */
 }
 
 ul li a:hover, .login-btn:hover, .get-started-btn:hover, .start-cooking-btn:hover{
@@ -100,6 +100,18 @@ ul li a:hover, .login-btn:hover, .get-started-btn:hover, .start-cooking-btn:hove
 .section-5 h5{
     margin-left: 10%;
 }
+
+.page-footer{
+    background: linear-gradient(to bottom,#fff,#ef6c00);
+    padding-top: 10%;
+    margin-top: 3%;
+    padding-bottom: 5%;
+}
+
+.copyright{
+    margin-top: 6%;
+}
+
 /* Utility classes */
 .bold{
     font-weight: bold;

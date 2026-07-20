@@ -23,8 +23,13 @@
 </head>
 <body>
     <header>
-        <div class="navbar-fixed white">
-            <nav class="white">
+        <div class="navbar-fixed">
+            <nav class="white ">
+                <a href="#sidenav" class="sidenav-trigger left hide-on-large-only">
+                    <i class="material-icons black-text">menu</i>
+                </a>
+
+
                 <div class="container">
                     <div class="row">
                         <div class="col pull-l1">
@@ -33,7 +38,7 @@
                             </a>
                         </div>
                         <div class="col">
-                            <ul>
+                            <ul class="hide-on-med-and-down">
                                 <li><a href="" class="orange-text text-darken-4">Who We Are</a></li>
                                 <li><a href="" class="orange-text text-darken-4">Find a Recipe</a></li>
                                 <li><a href="" class="orange-text text-darken-4">Our Reviews</a></li>
@@ -50,8 +55,17 @@
             </nav>
         </div>
 
+        <!-- Mobile sidenav -->
+        <ul class="sidenav" id="sidenav">
+            <li><a href="" class="orange-text text-darken-4">Who We Are</a></li>
+            <li><a href="" class="orange-text text-darken-4">Find a Recipe</a></li>
+            <li><a href="" class="orange-text text-darken-4">Our Reviews</a></li>
+            <li><a href="" class="orange-text text-darken-4">Contact Us</a></li>
+        </ul>
+
         <div class="header-video-container">
-            <video autoplay muted loop src="images/header-bg-vid.mp4" class="" type="video/mp4"></video>
+            <video autoplay muted loop src="images/header-bg-vid.mp4" class="hide-on-small-only" type="video/mp4"></video>
+            <img src="images/welcome-banner.jpg" alt="" class="hide-on-med-and-up responsive-img">
 
             <div class="header-video-container-content">
                 <h1 class="white-text text-align-center-on-wrap">Every Dish Tells a Story.</h1>
@@ -226,8 +240,47 @@
         </section>
     </main>
 
-    <footer>
-        
+    <footer class="page-footer">
+        <div class="container">
+            <div class="row">
+                <div class="col s12 m6 l3">
+                    <h6 class="orange-text text-darken-4">About</h6>
+                    <ul>
+                        <li><a href="#" class="black-text">Who We Are</a></li>
+                        <li><a href="#" class="black-text">Meet the chefs</a></li>
+                        <li><a href="#" class="black-text">FAQs</a></li>
+                    </ul>
+                </div>
+                <div class="col s12 m6 l3">
+                    <h6 class="orange-text text-darken-4">Explore</h6>
+                    <ul>
+                        <li><a href="#recipes" class="black-text">Recipes</a></li>
+                        <li><a href="#cakes" class="black-text">Cakes</a></li>
+                        <li><a href="#chicken" class="black-text">Chicken</a></li>
+                        <li><a href="#soups" class="black-text">Soups</a></li>
+                    </ul>
+                </div>
+                <div class="col s12 m6 l3">
+                    <h6 class="orange-text text-darken-4">Legal</h6>
+                    <ul>
+                        <li><a href="#" class="black-text">Privacy</a></li>
+                        <li><a href="#" class="black-text">Terms & Conditions</a></li>
+                        <li><a href="#" class="black-text">Disclosure</a></li>
+                    </ul>
+                </div>
+                <div class="col s12 m6 l3">
+                    <h6 class="orange-text text-darken-4">Contact Us</h6>
+                    <ul>
+                        <li><a href="#" class="black-text">+2349013915207</a></li>
+                        <li><a href="#" class="black-text">customersupport@recipe.com</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="center copyright">
+                <p>&copy; 2026. Recipe.com. All rights reserved. <a href="" class="white-text">Stanley</a></p>
+            </div>
+        </div>
+
     </footer>
 </body>
 
@@ -237,6 +290,8 @@
 
 <!-- Main script -->
 <script>
-
+$(document).ready(()=>{
+    $('.sidenav').sidenav();
+});
 </script>
 </html>
