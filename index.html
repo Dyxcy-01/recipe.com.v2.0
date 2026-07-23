@@ -28,8 +28,9 @@
                 <a href="#sidenav" class="sidenav-trigger left hide-on-large-only">
                     <i class="material-icons black-text">menu</i>
                 </a>
-                <a href="#" style="margin-left: 20%;">
-                    <img src="images/logo.png" alt="Recipe.com" class="responsive-img">
+
+                <a href="#">
+                    <img src="images/logo.png" alt="Recipe.com" class="responsive-img brand-logo hide-on-large-only">
                 </a>
                 
                 <div class="container hide-on-med-and-down">
@@ -68,67 +69,51 @@
             </li>
         </ul>
 
-        <section class="hero-sec">
-            <div class="header-video-container">
-                <video autoplay muted loop src="images/header-bg-vid.mp4" class="hide-on-small-only" type="video/mp4"></video>
-                <img src="images/welcome-banner.jpg" alt="" class="hide-on-med-and-up responsive-img">
+        <section class="hero">
+            <!-- Desktop Video -->
+            <video class="hero-video hide-on-small-and-down"
+                autoplay
+                muted
+                loop
+                playsinline>
+                <source src="images/header-bg-vid.mp4" type="video/mp4">
+            </video>
+
+            <!-- Mobile Image -->
+            <div class="hero-image hide-on-med-and-up">
+                <!-- <img src="images/welcome-banner.jpg" alt="Welcome" class="responsive-img"> -->
+            </div>
+
+            <!-- Dark Overlay -->
+            <div class="hero-overlay"></div>
+
+            <!-- Content -->
+            <div class="hero-content container">
+                <div class="hero-text">
+                    <h1 class="text-align-center-on-wrap">Every Dish Tells a Story.</h1>
+                    <p>Explore, cook, and create with us.</p>
     
-                <div class="overlay">
-                        <div class="row">
-                            <div class="col s12">
-                                <div class="landing-content">
-                                    <h1 class="white-text hide-on-small-and-down text-align-center-on-wrap">Every Dish Tells a Story.</h1>
-                                    <h4 class="white-text hide-on-med-and-up">Every Dish Tells a Story.</h4>
-                                    <p class="white-text text-accent-4 d-paragraph hide-on-small-and-down">Explore, cook, and create with us.</p>
-                                    <p class="white-text text-accent-4 hide-on-med-and-up">Explore, cook, and create with us.</p>
-                                    <a href="" class="btn-large hide-on-small-and-down white-text orange darken-4 get-started-btn">GET STARTED</a>
-                                    <a href="" class="btn hide-on-med-and-up white-text orange darken-4 get-started-btn">GET STARTED</a>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
+                </div>
+                <a class="btn-large orange darken-4 waves-effect get-started-btn">
+                    Get Started
+                </a>
             </div>
+
         </section>
-        <!-- <div class="header-video-container">
-            <video autoplay muted loop src="images/header-bg-vid.mp4" class="hide-on-small-only" type="video/mp4"></video>
-            <img src="images/welcome-banner.jpg" alt="" class="hide-on-med-and-up responsive-img">
-
-            <div class="header-video-container-content">
-                <h1 class="white-text text-align-center-on-wrap hide-on-med-and-down center-align">Every Dish Tells a Story.</h1>
-                <h3 class="white-text text-align-center-on-wrap hide-on-small-and-down hide-on-large-only">Every Dish Tells a Story.</h3>
-                <h4 class="white-text text-align-center-on-wrap hide-on-med-and-up">Every Dish Tells a Story.</h4>
-
-                <span class="white-text text-accent-4 text-align-center-on-wrap center-align">Explore, cook, and create with us.</span>--><!--Test using p tag on diff screens and using h456...-->
-
-                <!--<a href="" class="btn-large white-text orange darken-4 get-started-btn">GET STARTED</a>
-            </div>
-        </div> -->
-        <!-- <div class="header-video-container">
-            <video autoplay muted loop src="images/header-bg-vid.mp4" class="hide-on-small-only" type="video/mp4"></video>
-            <img src="images/welcome-banner.jpg" alt="" class="hide-on-med-and-up responsive-img">
-
-            <div class="header-video-container-content">
-                <h1 class="white-text text-align-center-on-wrap">Every Dish Tells a Story.</h1>
-
-                <span class="white-text text-accent-4 text-align-center-on-wrap">Explore, cook, and create with us.</span>
-
-                <a href="" class="btn-large white-text orange darken-4 get-started-btn">GET STARTED</a>
-            </div>
-        </div> -->
     </header>
 
     <main>
         <!-- hero section (section 1)-->
         <section class="hero-section" id="hero-section">
             <div class="container row">
-                <div class="col m7 l6">
+                <div class="col m8 l6">
                     <h2 class="hide-on-small-and-down">Start your culinary journey <span class="italic orange-text text-darken-4">today.</span></h2>
                     <h4 class="hide-on-med-and-up">Start your culinary journey <span class="italic orange-text text-darken-4">today.</span></h4>
                     <p>We offer you a gateway to an expertly curated selection of global recipes, ranging from traditional dishes to innovative creations, spanning various cuisines and cooking techniques.</p>
 
-                    <a href="" class="btn-large white-text orange darken-4 get-started-btn">START YOUR JOURNEY</a>
+                    <a href="" class="btn-large white-text orange darken-4 get-started-btn waves-effect">START YOUR JOURNEY</a>
                 </div>
-                <div class="col hide-on-small-and-down m5 l4">
+                <div class="col hide-on-small-and-down m4 l4">
                     <img src="images/spagetti.png" alt="Delicious Spagetti" class="responsive-img">
                 </div>
             </div>
@@ -229,15 +214,14 @@
         <section class="section-3">
             <div class="container">
                 <div class="row">
-                    <div class="col s12 m5 l5">
+                    <div class="col s12 m4 l5">
                         <img src="images/chef.jpg" alt="Chef" class="responsive-img hide-on-small-and-down">
                         <img src="images/chef-thumbs-up.jpg" alt="Chef" class="responsive-img hide-on-med-and-up">
                     </div>
-                    <div class="s12 m7 l7">
+                    <div class="s12 m8 l7">
                         <h2 class="hide-on-small-and-down">Crafted by Culinary <span class="italic chef-color-text">Wizzards.</span></h2>
                         <h4 class="hide-on-med-and-up center">Crafted by Culinary <span class="italic chef-color-text">Wizzards.</span></h4>
                         <p>Discover a world of flavorful options that promise mouthwatering results, meticulously curated and perfected by culinary ecperts, all at your fingertips. Easy as pie, isn't it?</p>
-
                         <a href="#" class="btn-large start-cooking-btn chef-color">START COOKING</a>
                     </div>
                 </div>
@@ -252,15 +236,15 @@
                 </div>
 
                 <div class="row">
-                    <div class="col s12 l4">
+                    <div class="col s12 m4 l4">
                         <h1 class="white-text text-align-center-on-wrap">27k+</h1>
                         <p class="text-align-center-on-wrap italic orange-text text-darken-4">active users each month</p>
                     </div>
-                    <div class="col s12 l4">
+                    <div class="col s12 m4 l4">
                         <h1 class="white-text text-align-center-on-wrap">800+</h1>
                         <p class="text-align-center-on-wrap italic orange-text text-darken-4">available recipes till date</p>
                     </div>
-                    <div class="col s12 l4">
+                    <div class="col s12 m4 l4">
                         <h1 class="white-text text-align-center-on-wrap">30+</h1>
                         <p class="text-align-center-on-wrap italic orange-text text-darken-4">chefs for consultation</p>
                     </div>
