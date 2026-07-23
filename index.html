@@ -28,9 +28,11 @@
                 <a href="#sidenav" class="sidenav-trigger left hide-on-large-only">
                     <i class="material-icons black-text">menu</i>
                 </a>
-
-
-                <div class="container">
+                <a href="#" style="margin-left: 20%;">
+                    <img src="images/logo.png" alt="Recipe.com" class="responsive-img">
+                </a>
+                
+                <div class="container hide-on-med-and-down">
                     <div class="row">
                         <div class="col pull-l1">
                             <a href="#">
@@ -38,7 +40,7 @@
                             </a>
                         </div>
                         <div class="col">
-                            <ul class="hide-on-med-and-down">
+                            <ul class="">
                                 <li><a href="" class="orange-text text-darken-4">Who We Are</a></li>
                                 <li><a href="" class="orange-text text-darken-4">Find a Recipe</a></li>
                                 <li><a href="" class="orange-text text-darken-4">Our Reviews</a></li>
@@ -58,12 +60,50 @@
         <!-- Mobile sidenav -->
         <ul class="sidenav" id="sidenav">
             <li><a href="" class="orange-text text-darken-4">Who We Are</a></li>
-            <li><a href="" class="orange-text text-darken-4">Find a Recipe</a></li>
+            <li><a href="#hero-section" class="orange-text text-darken-4">Find a Recipe</a></li>
             <li><a href="" class="orange-text text-darken-4">Our Reviews</a></li>
             <li><a href="" class="orange-text text-darken-4">Contact Us</a></li>
+            <li>
+                <a href="#" class="btn login-btn orange darken-4"><span>LOGIN</span></a>
+            </li>
         </ul>
 
-        <div class="header-video-container">
+        <section class="hero-sec">
+            <div class="header-video-container">
+                <video autoplay muted loop src="images/header-bg-vid.mp4" class="hide-on-small-only" type="video/mp4"></video>
+                <img src="images/welcome-banner.jpg" alt="" class="hide-on-med-and-up responsive-img">
+    
+                <div class="overlay">
+                        <div class="row">
+                            <div class="col s12">
+                                <div class="landing-content">
+                                    <h1 class="white-text hide-on-small-and-down text-align-center-on-wrap">Every Dish Tells a Story.</h1>
+                                    <h4 class="white-text hide-on-med-and-up">Every Dish Tells a Story.</h4>
+                                    <p class="white-text text-accent-4 d-paragraph hide-on-small-and-down">Explore, cook, and create with us.</p>
+                                    <p class="white-text text-accent-4 hide-on-med-and-up">Explore, cook, and create with us.</p>
+                                    <a href="" class="btn-large hide-on-small-and-down white-text orange darken-4 get-started-btn">GET STARTED</a>
+                                    <a href="" class="btn hide-on-med-and-up white-text orange darken-4 get-started-btn">GET STARTED</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+            </div>
+        </section>
+        <!-- <div class="header-video-container">
+            <video autoplay muted loop src="images/header-bg-vid.mp4" class="hide-on-small-only" type="video/mp4"></video>
+            <img src="images/welcome-banner.jpg" alt="" class="hide-on-med-and-up responsive-img">
+
+            <div class="header-video-container-content">
+                <h1 class="white-text text-align-center-on-wrap hide-on-med-and-down center-align">Every Dish Tells a Story.</h1>
+                <h3 class="white-text text-align-center-on-wrap hide-on-small-and-down hide-on-large-only">Every Dish Tells a Story.</h3>
+                <h4 class="white-text text-align-center-on-wrap hide-on-med-and-up">Every Dish Tells a Story.</h4>
+
+                <span class="white-text text-accent-4 text-align-center-on-wrap center-align">Explore, cook, and create with us.</span>--><!--Test using p tag on diff screens and using h456...-->
+
+                <!--<a href="" class="btn-large white-text orange darken-4 get-started-btn">GET STARTED</a>
+            </div>
+        </div> -->
+        <!-- <div class="header-video-container">
             <video autoplay muted loop src="images/header-bg-vid.mp4" class="hide-on-small-only" type="video/mp4"></video>
             <img src="images/welcome-banner.jpg" alt="" class="hide-on-med-and-up responsive-img">
 
@@ -74,20 +114,21 @@
 
                 <a href="" class="btn-large white-text orange darken-4 get-started-btn">GET STARTED</a>
             </div>
-        </div>
+        </div> -->
     </header>
 
     <main>
         <!-- hero section (section 1)-->
-        <section class="hero-section">
+        <section class="hero-section" id="hero-section">
             <div class="container row">
-                <div class="col s6">
-                    <h2>Start your culinary journey <span class="italic orange-text text-darken-4">today.</span></h2>
+                <div class="col m7 l6">
+                    <h2 class="hide-on-small-and-down">Start your culinary journey <span class="italic orange-text text-darken-4">today.</span></h2>
+                    <h4 class="hide-on-med-and-up">Start your culinary journey <span class="italic orange-text text-darken-4">today.</span></h4>
                     <p>We offer you a gateway to an expertly curated selection of global recipes, ranging from traditional dishes to innovative creations, spanning various cuisines and cooking techniques.</p>
 
                     <a href="" class="btn-large white-text orange darken-4 get-started-btn">START YOUR JOURNEY</a>
                 </div>
-                <div class="col s6">
+                <div class="col hide-on-small-and-down m5 l4">
                     <img src="images/spagetti.png" alt="Delicious Spagetti" class="responsive-img">
                 </div>
             </div>
@@ -97,10 +138,11 @@
         <section class="category-section">
             <div class="container">
                 <div class="category-section-title">
-                    <h2>Select a <span class="italic orange-text text-darken-4">category</span></h2>
+                    <h2 class="hide-on-small-and-down">Select a <span class="italic orange-text text-darken-4">category</span></h2>
+                    <h4 class="hide-on-med-and-up">Tap a <span class="italic orange-text text-darken-4">category</span></h4>
                 </div>
                 
-                <div class="row">
+                <div class="row hide-on-small-and-down">
                     <div class="col s12 m12 l4">
                         <div class="my-modal-container round-edge">
                             <div class="card round-edge">
@@ -109,7 +151,7 @@
                                 </div>
                             </div>
                             <div class="my-modal round-edge">
-                                <a href="#" class="">Cakes<i class="material-icons">call_made</i></a>
+                                <a href="all-recipes-cakes.html" class="">Cakes<i class="material-icons">call_made</i></a>
                             </div>
                         </div>
                     </div>
@@ -121,7 +163,7 @@
                                 </div>
                             </div>
                             <div class="my-modal round-edge">
-                                <a href="#" class="">Chicken<i class="material-icons">call_made</i></a>
+                                <a href="all-recipes-chicken.html" class="">Chicken<i class="material-icons">call_made</i></a>
                             </div>
                         </div>
                     </div>
@@ -133,10 +175,52 @@
                                 </div>
                             </div>
                             <div class="my-modal round-edge">
-                                <a href="#" class="">Soups<i class="material-icons">call_made</i></a>
+                                <a href="all-recipes-soups.html" class="">Soups<i class="material-icons">call_made</i></a>
                             </div>
                         </div>
                     </div>
+                </div>
+
+                <!-- for mobile screens -->
+                <div class="slider hide-on-med-and-up">
+                    <ul class="slides">
+                        <li>
+                            <div class="my-modal-container round-edge">
+                                <div class="card round-edge">
+                                    <div class="card-image">
+                                        <img src="images/cake-main.jpg" alt="Cake" class="responsive-img round-edge">
+                                    </div>
+                                </div>
+                                <div class="my-modal round-edge">
+                                    <a href="all-recipes-cakes.html" class="">Cakes<i class="material-icons">call_made</i></a>
+                                </div>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="my-modal-container">
+                                <div class="card round-edge">
+                                    <div class="card-image">
+                                        <img src="images/chicken-main.jpg" alt="Cake" class="responsive-img round-edge">
+                                    </div>
+                                </div>
+                                <div class="my-modal round-edge">
+                                    <a href="all-recipes-chicken.html" class="">Chicken<i class="material-icons">call_made</i></a>
+                                </div>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="my-modal-container">
+                                <div class="card round-edge">
+                                    <div class="card-image">
+                                        <img src="images/soup-main.jpg" alt="Cake" class="responsive-img  round-edge">
+                                    </div>
+                                </div>
+                                <div class="my-modal round-edge">
+                                    <a href="all-recipes-soups.html" class="">Soups<i class="material-icons">call_made</i></a>
+                                </div>
+                            </div>
+                        </li>
+                    </ul>
                 </div>
             </div>
         </section>
@@ -145,11 +229,13 @@
         <section class="section-3">
             <div class="container">
                 <div class="row">
-                    <div class="col s12 m l5">
-                        <img src="images/chef.jpg" alt="Chef" class="responsive-img">
+                    <div class="col s12 m5 l5">
+                        <img src="images/chef.jpg" alt="Chef" class="responsive-img hide-on-small-and-down">
+                        <img src="images/chef-thumbs-up.jpg" alt="Chef" class="responsive-img hide-on-med-and-up">
                     </div>
-                    <div class="7">
-                        <h2>Crafted by Culinary <span class="italic chef-color-text">Wizzards.</span></h2>
+                    <div class="s12 m7 l7">
+                        <h2 class="hide-on-small-and-down">Crafted by Culinary <span class="italic chef-color-text">Wizzards.</span></h2>
+                        <h4 class="hide-on-med-and-up center">Crafted by Culinary <span class="italic chef-color-text">Wizzards.</span></h4>
                         <p>Discover a world of flavorful options that promise mouthwatering results, meticulously curated and perfected by culinary ecperts, all at your fingertips. Easy as pie, isn't it?</p>
 
                         <a href="#" class="btn-large start-cooking-btn chef-color">START COOKING</a>
@@ -162,7 +248,7 @@
         <section class="section-4 black white-text">
             <div class="container">
                 <div class="category-section-title">
-                    <h2>See our <span class="italic orange-text text-darken-4">numbers</span></h2>
+                    <h2 class="center-align">See our <span class="italic orange-text text-darken-4">numbers</span></h2>
                 </div>
 
                 <div class="row">
@@ -185,7 +271,8 @@
         <!-- section 5 -->
         <section class="section-5">
             <div class="container">
-                <h2>Meet the <span class="italic orange-text text-darken-4">experts</span></h2>
+                <h2 class="hide-on-small-and-down">Meet the <span class="italic orange-text text-darken-4">experts</span></h2>
+                <h4 class="hide-on-med-and-up center-align">Meet the <span class="italic orange-text text-darken-4">experts</span></h4>
                 <p>Our team of seasoned chefs offer expert guidance and delectable recipes to elevate your kitchen creations to new heights.</p>
 
                 <div class="row">
@@ -210,27 +297,28 @@
             <div class="container">
                 <hr>
                 <div class="category-section-title">
-                    <h2>Our Esteemed <span class="italic orange-text text-darken-4">Cliente</span></h2>
+                    <h2 class="hide-on-small-and-down">Our Esteemed <span class="italic orange-text text-darken-4">Cliente</span></h2>
+                    <h4 class="hide-on-med-and-up center">Our Esteemed <span class="italic orange-text text-darken-4">Cliente</span></h4>
                 </div>
             </div>
             <!-- Clients logo -->
             <div class="row">
-                <div class="col s12 m6 l2">
+                <div class="col s6 m3 l2">
                     <img src="images/rest-1.avif" alt="" class="responsive-img">
                 </div>
-                <div class="col s12 m6 l2">
+                <div class="col s6 m3 l2">
                     <img src="images/rest-2.avif" alt="" class="responsive-img">
                 </div>
-                <div class="col s12 m6 l2">
+                <div class="col s6 m3 l2">
                     <img src="images/rest-3.avif" alt="" class="responsive-img">
                 </div>
-                <div class="col s12 m6 l2">
+                <div class="col s6 m3 l2">
                     <img src="images/rest-4.avif" alt="" class="responsive-img">
                 </div>
-                <div class="col s12 m6 l2">
+                <div class="col s6 m3 l2">
                     <img src="images/rest-5.avif" alt="" class="responsive-img">
                 </div>
-                <div class="col s12 m6 l2">
+                <div class="col s6 m3 l2">
                     <img src="images/rest-6.avif" alt="" class="responsive-img">
                 </div>
             </div>
@@ -277,7 +365,7 @@
                 </div>
             </div>
             <div class="center copyright">
-                <p>&copy; 2026. Recipe.com. All rights reserved. <a href="" class="white-text">Stanley</a></p>
+                <p>&copy; 2026. Recipe.com. All rights reserved. <a href="https://github.com/Dyxcy-01" class="white-text">Stanley</a></p>
             </div>
         </div>
 
@@ -292,6 +380,11 @@
 <script>
 $(document).ready(()=>{
     $('.sidenav').sidenav();
+    $('.slider').slider(
+        {
+            indicators: false
+        }
+    );
 });
 </script>
 </html>

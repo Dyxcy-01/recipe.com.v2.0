@@ -1,0 +1,326 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="A food recipe website. On this website you will find different recipes: chicken recipe, foods recipe, soups recipe, cakes recipe">
+    <meta name="author" content="Stanley">
+    <meta name="keywords" content="recipe food-recipe food-website all-recipes all-food-recipes stanley-all-food-recipes recipe-website my-recipe myrecipe food-recipe-website">
+
+    <!-- Custom fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100..700;1,100..700&display=swap" rel="stylesheet">
+
+    <!--CSS Framework -->
+    <link rel="stylesheet" href="css/materialize.css">
+    <!-- Vanilla CSS -->
+    <link rel="stylesheet" href="css/styles.css">
+
+    <!--Materialize Icons-->
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+
+    <!-- Favicons & shortcut -->
+    <link rel="shortcut icon" href="images/icons_and_logos/rcon.png" type="image/x-icon">
+
+    <title>All Food Recipes</title>
+</head>
+<body>
+    <!-- Header -->
+    <header>
+        <!-- Nav bar -->
+        <div class="navbar-fixed">
+            <nav class="white">
+                <div class="container">
+                    <!-- Brand logo -->
+                    <a href="#" class="brand-logo hide-on-med-and-down left">
+                        <img src="images/icons_and_logos/logo-transparent.png" alt="Recipe.com Logo" class="responsive-img">
+                    </a>
+                    <ul class="right hide-on-med-and-down">
+                        <li>
+                            <a class="orange-text text-darken-4 bold" href="index.html">Home</a>
+                        </li>
+                        <li>
+                            <a class="orange-text text-darken-4 bold" href="#">Cakes</a>
+                        </li>
+                        <li>
+                            <a class="orange-text text-darken-4 bold" href="all-recipes-soups.html">Soups</a>
+                        </li>
+                        <li>
+                            <a class="orange-text text-darken-4 bold" href="all-recipes-chicken.html">Chicken</a>
+                        </li>
+                        <li>
+                            <a class="orange-text text-darken-4 bold" href="index.html#reviews">Reviews</a>
+                        </li>
+                    </ul>
+                    
+
+                    <!-- Tablet brand logo -->
+                    <a href="#" class="hide-on-small-and-down hide-on-large-only right">
+                        <img src="images/icons_and_logos/logo.png" alt="Recipe.com Logo" class="responsive-img">
+                    </a>
+                    <!-- Mobile brand logo -->
+                    <a href="#" class="brand-logo hide-on-med-and-up">
+                        <img src="images/icons_and_logos/logo.png" alt="Recipe.com Logo" class="responsive-img">
+                    </a>
+                    <!-- Mobile sidenav -->
+                    <a href="#mobile-sidenav" class="sidenav-trigger">
+                        <i class="material-icons black-text">menu</i>
+                    </a>
+                    
+                </div>
+            </nav>
+        </div>
+
+        <!-- Mobile sidenav -->
+        <ul class="sidenav" id="mobile-sidenav">
+            <li>
+                <a class="orange-text text-darken-4 bold" href="index.html">Home</a>
+            </li>
+            <li>
+                <a class="orange-text text-darken-4 bold" href="#">Cakes</a>
+            </li>
+            <li>
+                <a class="orange-text text-darken-4 bold" href="all-recipes-soups.html">Soups</a>
+            </li>
+            <li>
+                <a class="orange-text text-darken-4 bold" href="all-recipes-chicken.html">Chicken</a>
+            </li>
+            <li>
+                <a class="orange-text text-darken-4 bold" href="index.html#reviews">Reviews</a>
+            </li>
+        </ul>
+        
+        <!-- Parallax containing picture of a cake -->
+        <div class="parallax-container hide-on-small-and-down">
+            <div class="parallax">
+                <img src="images/cake.jpg" alt="A Cake." class="responsive-img">
+            </div>
+
+            <!-- Sliding Text Container -->
+            <div class="text-overlay">
+                <div class="slide-in-text white-text">
+                    <h3>Cakes</h3>
+                    <p class="">Here's our small slogan.</p>
+                </div>
+            </div>
+        </div>
+        <!-- Image to replace parallax on small screens -->
+        <div class="hide-on-med-and-up">
+            <img src="images/cake.jpg" alt="A Cake." class="responsive-img">
+        </div>
+        <!-- Sliding Text Container -->
+        <div class="text-overlay hide-on-med-and-up">
+            <div class="slide-in-text white-text">
+                <h3>Cakes</h3>
+                <p class="">Here's our small slogan.</p>
+            </div>
+        </div>
+    </header>
+
+    <main class="container" id="cakes">
+        <h1 class="orange-text text-darken-4 hide-on-small-and-down">Cakes</h1>
+        <h4 class="orange-text text-darken-4 hide-on-med-and-up">Cakes</h4>
+        <p>The other day the grass was brown, now it's green because I ain't give up. Never surrender. The key is to enjoy life because they don't want you to enjoy life. I promise you, they don't want you to jetski, they don't want you to smile. Congratulations, you played youself.</p>
+
+        <div class="row">
+            <div class="col s12 m6 l4">
+                <div class="card hoverable">
+                    <div class="card-image">
+                        <img src="images/sponge_cake.webp" alt="" class="responsive-img materialboxed">
+                    </div>
+                    <div class="card-content">
+                        <h5 class="card-title orange-text text-darken-4">Sponge Cake</h5>
+                        <p>Give thanks to the most high. The weather is amazing.</p>
+                    </div>
+                    <div class="card-action">
+                        <button class="btn-flat white orange-text orange-text text-darken-4">Ingredients</button>
+                        <button class="btn-flat white orange-text text-darken-4">Bake Now</button>
+                    </div>
+                </div>
+            </div>
+            <div class="col s12 m6 l4">
+                <div class="card hoverable">
+                    <div class="card-image">
+                        <img src="images/velvet_cake.webp" alt="" class="responsive-img materialboxed">
+                    </div>
+                    <div class="card-content">
+                        <h5 class="card-title orange-text text-darken-4">Velvet Cake</h5>
+                        <p>Walk with me through the path way of more success.</p>
+                    </div>
+                    <div class="card-action">
+                        <button class="btn-flat white orange-text orange-text text-darken-4">Ingredients</button>
+                        <button class="btn-flat white orange-text text-darken-4">Bake Now</button>
+                    </div>
+                </div>
+            </div>
+            <div class="col s12 m6 l4">
+                <div class="card hoverable">
+                    <div class="card-image">
+                        <img src="images/courgette_cake.webp" alt="" class="responsive-img materialboxed">
+                    </div>
+                    <div class="card-content">
+                        <h5 class="card-title orange-text text-darken-4">Courgette Cake</h5>
+                        <p>They will try to close the door on you, just open it. Lion!</p>
+                    </div>
+                    <div class="card-action">
+                        <button class="btn-flat white orange-text orange-text text-darken-4">Ingredients</button>
+                        <button class="btn-flat white orange-text text-darken-4">Bake Now</button>
+                    </div>
+                </div>
+            </div>
+            <div class="col s12 m6 l4">
+                <div class="card hoverable">
+                    <div class="card-image">
+                        <img src="images/chocolate_2.png" alt="" class="responsive-img materialboxed">
+                    </div>
+                    <div class="card-content">
+                        <h5 class="card-title orange-text text-darken-4">Chocolate Cake</h5>
+                        <p>When you get out the shower, alway dry your back.</p>
+                    </div>
+                    <div class="card-action">
+                        <button class="btn-flat white orange-text orange-text text-darken-4">Ingredients</button>
+                        <button class="btn-flat white orange-text text-darken-4">Bake Now</button>
+                    </div>
+                </div>
+            </div>
+            <div class="col s12 m6 l4">
+                <div class="card hoverable">
+                    <div class="card-image">
+                        <img src="images/sponge_cake.webp" alt="" class="responsive-img materialboxed">
+                    </div>
+                    <div class="card-content">
+                        <h5 class="card-title orange-text text-darken-4">Coffee Slab Cake</h5>
+                        <p>To succeed you must believe. Special cloth talk.</p>
+                    </div>
+                    <div class="card-action">
+                        <button class="btn-flat white orange-text orange-text text-darken-4">Ingredients</button>
+                        <button class="btn-flat white orange-text text-darken-4">Bake Now</button>
+                    </div>
+                </div>
+            </div>
+            <div class="col s12 m6 l4">
+                <div class="card hoverable">
+                    <div class="card-image">
+                        <img src="images/pistachio_cake.webp" alt="" class="responsive-img materialboxed">
+                    </div>
+                    <div class="card-content">
+                        <h5 class="card-title orange-text text-darken-4">Pistachio Cake</h5>
+                        <p>Never complain, complaining is a weak emotion.</p>
+                    </div>
+                    <div class="card-action">
+                        <button class="btn-flat white orange-text orange-text text-darken-4">Ingredients</button>
+                        <button class="btn-flat white orange-text text-darken-4">Bake Now</button>
+                    </div>
+                </div>
+            </div>
+            <div class="col s12 m6 l4">
+                <div class="card hoverable">
+                    <div class="card-image">
+                        <img src="images/polenta_cake.webp" alt="" class="responsive-img materialboxed">
+                    </div>
+                    <div class="card-content">
+                        <h5 class="card-title orange-text text-darken-4">Polenta Cake</h5>
+                        <p>Lion! I am up to something. They don't want us to eat.</p>
+                    </div>
+                    <div class="card-action">
+                        <button class="btn-flat white orange-text orange-text text-darken-4">Ingredients</button>
+                        <button class="btn-flat white orange-text text-darken-4">Bake Now</button>
+                    </div>
+                </div>
+            </div>
+            <div class="col s12 m6 l4">
+                <div class="card hoverable">
+                    <div class="card-image">
+                        <img src="images/buttermilk_cake.webp" alt="" class="responsive-img materialboxed">
+                    </div>
+                    <div class="card-content">
+                        <h5 class="card-title orange-text text-darken-4">Buttermilk Cake</h5>
+                        <p>When you get out the shower, always dry your back.</p>
+                    </div>
+                    <div class="card-action">
+                        <button class="btn-flat white orange-text orange-text text-darken-4">Ingredients</button>
+                        <button class="btn-flat white orange-text text-darken-4">Bake Now</button>
+                    </div>
+                </div>
+            </div>
+            <div class="col s12 m6 l4">
+                <div class="card hoverable">
+                    <div class="card-image">
+                        <img src="images/chocolate_1.webp" alt="" class="responsive-img materialboxed materialboxed">
+                    </div>
+                    <div class="card-content">
+                        <h5 class="card-title orange-text text-darken-4">Peanut Cake</h5>
+                        <p>When you get out the shower, always dry your back.</p>
+                    </div>
+                    <div class="card-action">
+                        <button class="btn-flat white orange-text orange-text text-darken-4">Ingredients</button>
+                        <button class="btn-flat white orange-text text-darken-4">Bake Now</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <!-- Footer -->
+    <footer class="page-footer black">
+        <div class="container">
+            <div class="row">
+                <div class="col s12 m6 l4">
+                    <!-- logo -->
+                    <a href="#">
+                        <img src="images/icons_and_logos/logo-transparent.png" alt="recipe.com" class="responsive-img">
+                    </a>
+
+                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Molestiae nisi quidem officia repudiandae eius qui animi reprehenderit amet quod quam!</p>
+                </div>
+                <div class="col s12 m4 l4 hide-on-med-only">
+                    <!-- Blank space: I used it to create an empty space in between -->
+                </div>
+                <div class="col s12 m6 l4">
+                    <h4 class="orange-text text-darken-4">Quick Links</h4>
+                    <ul>
+                        <li><a href="#" class="white-text">Back to top</a></li>
+                        <li><a href="index.html" class="white-text">Home</a></li>
+                        <li><a href="#" class="white-text">Cakes</a></li>
+                        <li><a href="all-recipes-soups.html" class="white-text">Soups</a></li>
+                        <li><a href="all-recipes-chicken.html" class="white-text">Chicken</a></li>
+                        <li><a href="index.html#reviews" class="white-text">Reviews</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div class="footer-copyright orange darken-4">
+            <div class="row">
+                <div class="col s12">
+                    <div class="white-text">&copy; 2026 Recipe.com | <a href="https://github.com/Dyxcy-01" class="white-text">Stanley Ayeni</a></div>
+                </div>
+                <!-- <div class="col l6">
+                    <div class="container white-text">&copy; 2026 Recipe.com | CORE-TECH</div>
+                </div>
+                <div class="col l3"></div> -->
+            </div>
+        </div>
+    </footer>
+</body>
+
+<!-- CSS framework support scripts -->
+<script src="js/jquery.js"></script>
+<script src="js/materialize.js"></script>
+
+<!-- Main script -->
+<script>
+    $(document).ready(()=>{
+        $('.slider').slider();
+
+        $('.parallax').parallax();
+
+        $('.sidenav').sidenav();
+
+        $('.materialboxed').materialbox();
+
+        var elems = document.querySelectorAll('.parallax');
+        M.Parallax.init(elems);
+});
+</script>
+</html>

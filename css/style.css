@@ -21,29 +21,71 @@ video{
     /* height: 100vh; */
     /* top: -50px; */
 }
+.header-video-container img{
+    
+}
 
-ul li a:hover, .login-btn:hover, .get-started-btn:hover, .start-cooking-btn:hover{
+ul li a:hover, 
+.login-btn:hover, 
+.get-started-btn:hover, 
+.start-cooking-btn:hover{
     font-weight: bold;
 }
 
-.get-started-btn, .start-cooking-btn{
+.get-started-btn, 
+.start-cooking-btn{
     border-radius: 10px;
     margin-top: 10px;
 }
 
 .header-video-container-content{
-    margin-top: 10%;
+    /* margin-top: 0%; */
     position: absolute;
-    width: 45%;
-    display: flex;
+    /* display: flex;
     flex-direction: column;
-    align-items: center;
+    align-items: center; */
 }
 
-.header-video-container-content span{
+/* .header-video-container-content span{
     font-size: 33px;
     opacity: 0.8;
+} */
+
+.hero-sec{
+    position: relative;
 }
+.hero-sec .overlay{
+    position: absolute;
+    height: 100%;
+    width: 100%;
+}
+
+.overlay{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.overlay h1{
+    font-size: 5rem;
+    width: 80%;
+}
+.overlay h4{
+    font-size: 2rem;
+}
+.overlay .d-paragraph{
+    font-size: 2.5rem;
+    margin-left: -10%;    
+}
+
+.overlay .landing-content{
+    place-content: center;
+}
+
+.slider .slides{
+    height: fit-content !important;
+}
+
 
 .hero-section p, .section-3 p, .section-5 p{
     font-size: larger;
