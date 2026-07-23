@@ -123,17 +123,25 @@ ul li a:hover,
 
 /* Stop */
 
+
+.hero-section,
+.category-section, 
+.section-4, 
+.section-5,
+.section-6{
+    padding-top: 3rem;
+}
+.section-3{
+    padding-top: 0.5rem;
+}
+
 .slider .slides{
     height: fit-content !important;
 }
 
 
 .hero-section p, .section-3 p, .section-5 p{
-    font-size: larger;
-}
-
-.category-section{
-    margin-top: 50px;
+    font-size: large;
 }
 
 .category-section-title{
@@ -168,18 +176,6 @@ ul li a:hover,
     font-size: 25px;
 }
 
-.section-3{
-    margin-top: 100px;
-}
-
-.section-4{
-    margin-top: 45px;
-    padding-bottom: 4%;
-}
-
-.section-5{
-    margin-bottom: 80px;
-}
 .section-5 h5{
     margin-left: 10%;
 }
@@ -188,7 +184,7 @@ ul li a:hover,
     background: linear-gradient(to bottom,#fff,#ef6c00);
     padding-top: 10%;
     margin-top: 3%;
-    padding-bottom: 5%;
+    padding-bottom: 0.1rem;
 }
 
 .copyright{
