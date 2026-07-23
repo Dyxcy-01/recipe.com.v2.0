@@ -191,6 +191,46 @@ ul li a:hover,
     margin-top: 6%;
 }
 
+
+/* All cakes recipe page */
+.parallax-container {   
+    position: relative;
+    height: 500px; /* Adjust to your needs */
+    overflow: hidden;
+}
+
+.text-overlay {
+    position: absolute;
+    top: 10%;
+    left: 15%;
+    width: 100%;
+    height: 100%;
+    z-index: 2;
+}
+
+.slide-in-text {
+    opacity: 0;
+    transform: translateX(-100px); /* Start 100px to the left */
+    animation: slideIn 0.7s ease-in-out forwards;
+}
+.slide-in-text p{
+    font-size: 18px;
+}
+
+@keyframes slideIn {
+    to {
+        opacity: 1;
+        transform: translateX(0); /* Return to original position */
+    }
+}
+
+.cakes-footer{
+    background: linear-gradient(to bottom,#fff,#9b0b21);
+    padding-top: 10%;
+    margin-top: 3%;
+    padding-bottom: 0.1rem;
+}
+
 /* Utility classes */
 .bold{
     font-weight: bold;
@@ -215,4 +255,14 @@ ul li a:hover,
 }
 .chef-color:hover{
     background-color: #ae0138e0;
+}
+
+.cake-color-text{
+    color: #9b0b21;
+}
+.cake-color{
+    background-color: #9b0b21;
+}
+.cake-color:hover{
+    background-color: #9b0b21;
 }
