@@ -231,6 +231,14 @@ ul li a:hover,
     padding-bottom: 0.1rem;
 }
 
+/* Soup page */
+.soup-footer{
+    background: linear-gradient(to bottom,#fff,#1B5E20);
+    padding-top: 10%;
+    margin-top: 3%;
+    padding-bottom: 0.1rem;
+}
+
 /* Utility classes */
 .bold{
     font-weight: bold;
