@@ -190,7 +190,15 @@ ul li a:hover,
 .copyright{
     margin-top: 6%;
 }
+.footer-copyright.row{
+    background-color: rgba(255, 0, 0, 0)!;
+}
 
+.duration{
+    border-radius: 20px;
+    padding: 5px 7px;
+    font-size: 10px;
+}
 
 /* All cakes recipe page */
 .parallax-container {   
@@ -226,16 +234,16 @@ ul li a:hover,
 
 .cakes-footer{
     background: linear-gradient(to bottom,#fff,#9b0b21);
-    padding-top: 10%;
-    margin-top: 3%;
+    padding-top: 5%;
+    margin-top: 2%;
     padding-bottom: 0.1rem;
 }
 
 /* Soup page */
 .soup-footer{
     background: linear-gradient(to bottom,#fff,#1B5E20);
-    padding-top: 10%;
-    margin-top: 3%;
+    padding-top: 5%;
+    margin-top: 2%;
     padding-bottom: 0.1rem;
 }
 
@@ -266,7 +274,7 @@ ul li a:hover,
 }
 
 .cake-color-text{
-    color: #9b0b21;
+    color: #9b0b21 !important;
 }
 .cake-color{
     background-color: #9b0b21;

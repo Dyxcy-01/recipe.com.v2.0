@@ -15,7 +15,7 @@
     <!--CSS Framework -->
     <link rel="stylesheet" href="css/materialize.css">
     <!-- Vanilla CSS -->
-    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="css/style.css">
 
     <!--Materialize Icons-->
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
@@ -30,90 +30,75 @@
     <header>
         <!-- Nav bar -->
         <div class="navbar-fixed">
-            <nav class="white">
-                <div class="container">
-                    <!-- Brand logo -->
-                    <a href="#" class="brand-logo hide-on-med-and-down left">
-                        <img src="images/icons_and_logos/logo-transparent.png" alt="Recipe.com Logo" class="responsive-img">
-                    </a>
-                    <ul class="right hide-on-med-and-down">
-                        <li>
-                            <a class="orange-text text-darken-4 bold" href="index.html">Home</a>
-                        </li>
-                        <li>
-                            <a class="orange-text text-darken-4 bold" href="all-recipes-cakes.html">Cakes</a>
-                        </li>
-                        <li>
-                            <a class="orange-text text-darken-4 bold" href="all-recipes-soups.html">Soups</a>
-                        </li>
-                        <li>
-                            <a class="orange-text text-darken-4 bold" href="#">Chicken</a>
-                        </li>
-                        <li>
-                            <a class="orange-text text-darken-4 bold" href="index.html#reviews">Reviews</a>
-                        </li>
-                    </ul>
-                    
+            <nav class="white ">
+                <a href="#sidenav" class="sidenav-trigger left hide-on-large-only">
+                    <i class="material-icons black-text">menu</i>
+                </a>
 
-                    <!-- Tablet brand logo -->
-                    <a href="#" class="hide-on-small-and-down hide-on-large-only right">
-                        <img src="images/icons_and_logos/logo.png" alt="Recipe.com Logo" class="responsive-img">
-                    </a>
-                    <!-- Mobile brand logo -->
-                    <a href="#" class="brand-logo hide-on-med-and-up">
-                        <img src="images/icons_and_logos/logo.png" alt="Recipe.com Logo" class="responsive-img">
-                    </a>
-                    <!-- Mobile sidenav -->
-                    <a href="#mobile-sidenav" class="sidenav-trigger">
-                        <i class="material-icons black-text">menu</i>
-                    </a>
-                    
+                <a href="#">
+                    <img src="images/logo.png" alt="Recipe.com" class="responsive-img brand-logo hide-on-large-only">
+                </a>
+                
+                <div class="container hide-on-med-and-down">
+                    <div class="row">
+                        <div class="col pull-l1">
+                            <a href="#">
+                                <img src="images/logo.png" alt="Recipe.com" class="responsive-img">
+                            </a>
+                        </div>
+                        <div class="col push-l3">
+                            <ul class="">
+                                <li><a href="" class="orange-text text-darken-4">Who We Are</a></li>
+                                <li><a href="" class="orange-text text-darken-4">Find a Recipe</a></li>
+                                <li><a href="" class="orange-text text-darken-4">Meet the Experts</a></li>
+                                <li><a href="" class="orange-text text-darken-4">Cliente</a></li>
+                            </ul>
+                        </div>
+                        <div class="col push-l3">
+                            <div class="right">
+                                <a href="#" class="btn login-btn orange darken-4"><span>LOGIN</span></a>
+                            </div>
+                        </div>
+                    </div>
                 </div>
             </nav>
         </div>
 
         <!-- Mobile sidenav -->
-        <ul class="sidenav" id="mobile-sidenav">
+        <ul class="sidenav" id="sidenav">
+            <li><a href="" class="orange-text text-darken-4">Who We Are</a></li>
+            <li><a href="#hero-section" class="orange-text text-darken-4">Find a Recipe</a></li>
+            <li><a href="" class="orange-text text-darken-4">Meet the Experts</a></li>
+            <li><a href="" class="orange-text text-darken-4">Cliente</a></li>
             <li>
-                <a class="orange-text text-darken-4 bold" href="index.html">Home</a>
-            </li>
-            <li>
-                <a class="orange-text text-darken-4 bold" href="all-recipes-cakes.html">Cakes</a>
-            </li>
-            <li>
-                <a class="orange-text text-darken-4 bold" href="all-recipes-soups.html">Soups</a>
-            </li>
-            <li>
-                <a class="orange-text text-darken-4 bold" href="#">Chicken</a>
-            </li>
-            <li>
-                <a class="orange-text text-darken-4 bold" href="index.html#reviews">Reviews</a>
+                <a href="#" class="btn login-btn orange darken-4"><span>LOGIN</span></a>
             </li>
         </ul>
+
         
         <!-- Parallax containing picture of a chicken (med screen and above)-->
         <div class="parallax-container hide-on-small-and-down">
             <div class="parallax">
-                <img src="images/chicken.jpg" alt="A Cake." class="responsive-img">
+                <img src="images/chicken-main.jpg" alt="A Cake." class="responsive-img">
             </div>
 
             <!-- Sliding Text Container -->
             <div class="text-overlay">
                 <div class="slide-in-text white-text">
-                    <h3>Chicken</h3>
-                    <p class="">Here's our small slogan.</p>
+                    <!-- <h3>Chicken</h3>
+                    <p class="">Here's our small slogan.</p> -->
                 </div>
             </div>
         </div>
         <!-- Image to replace parallax on small screens -->
         <div class="hide-on-med-and-up">
-            <img src="images/chicken.jpg" alt="A Cake." class="responsive-img">
+            <img src="images/chicken-main.jpg" alt="A Cake." class="responsive-img">
         </div>
         <!-- Sliding Text Container for small screen-->
         <div class="text-overlay hide-on-med-and-up">
             <div class="slide-in-text white-text">
-                <h3>Chicken</h3>
-                <p class="">Here's our small slogan.</p>
+                <!-- <h3>Chicken</h3>
+                <p class="">Here's our small slogan.</p> -->
             </div>
         </div>
     </header>
@@ -289,7 +274,7 @@
                 </div>
             </div>
         </div>
-        <div class="footer-copyright orange darken-4">
+        <div class="footer-copyright">
             <div class="row">
                 <div class="col s12">
                     <div class="white-text">&copy; 2026 Recipe.com | <a href="https://github.com/Dyxcy-01" class="white-text">Stanley Ayeni</a></div>
