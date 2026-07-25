@@ -170,40 +170,40 @@
 
                 <!-- for mobile screens -->
                 <div class="slider hide-on-med-and-up">
-                    <ul class="slides">
+                    <ul class="slides round-edge">
                         <li>
-                            <div class="my-modal-container round-edge">
-                                <div class="card round-edge">
-                                    <div class="card-image">
-                                        <img src="images/cake-main.jpg" alt="Cake" class="responsive-img round-edge">
-                                    </div>
-                                </div>
-                                <div class="my-modal round-edge">
-                                    <a href="all-recipes-cakes.html" class="">Cakes<i class="material-icons">call_made</i></a>
+                            <img src="images/cake-main.jpg" alt="Cake" class="responsive-img round-edge">
+                            
+                                <!-- Sliding Text Container -->
+                            <div class="caption center-align">
+                                <div class=" white-text">
+                                    <h3>
+                                        <a href="all-recipes-cakes.html" class="white-text">Cakes<i class="material-icons">call_made</i></a>
+                                    </h3>
                                 </div>
                             </div>
                         </li>
                         <li>
-                            <div class="my-modal-container">
-                                <div class="card round-edge">
-                                    <div class="card-image">
-                                        <img src="images/chicken-main.jpg" alt="Cake" class="responsive-img round-edge">
-                                    </div>
-                                </div>
-                                <div class="my-modal round-edge">
-                                    <a href="all-recipes-chicken.html" class="">Chicken<i class="material-icons">call_made</i></a>
+                            <img src="images/soup-main.jpg" alt="Cake" class="responsive-img round-edge">
+                            
+                                <!-- Sliding Text Container -->
+                            <div class="caption left-align">
+                                <div class=" white-text">
+                                    <h3>
+                                        <a href="all-recipes-soups.html" class="white-text">Soups<i class="material-icons">call_made</i></a>
+                                    </h3>
                                 </div>
                             </div>
                         </li>
                         <li>
-                            <div class="my-modal-container">
-                                <div class="card round-edge">
-                                    <div class="card-image">
-                                        <img src="images/soup-main.jpg" alt="Cake" class="responsive-img  round-edge">
-                                    </div>
-                                </div>
-                                <div class="my-modal round-edge">
-                                    <a href="all-recipes-soups.html" class="">Soups<i class="material-icons">call_made</i></a>
+                            <img src="images/chicken-main.jpg" alt="Cake" class="responsive-img round-edge">
+                            
+                                <!-- Sliding Text Container -->
+                            <div class="caption right-align">
+                                <div class=" white-text">
+                                    <h3>
+                                        <a href="all-recipes-chicken.html" class="white-text">Chicken<i class="material-icons">call_made</i></a>
+                                    </h3>
                                 </div>
                             </div>
                         </li>
@@ -405,9 +405,28 @@ $(document).ready(()=>{
     $('.sidenav').sidenav();
     $('.slider').slider(
         {
-            indicators: false
+            indicators: false,
+            interval: 3000
         }
     );
+
+    // const animateSliderText = ()=> {
+
+    //     const activeSlide = document.querySelector(".slides li.active .slide-in-text");
+        
+    //         if (!activeSlide) return;
+
+    //         activeSlide.classList.remove('animate-text');
+    //         void activeSlide.offsetWidth;
+
+    //         setTimeout(()=>{
+    //             activeSlide.classList.add('animate-text');
+    //         }, 1000);
+        
+    // }
+    // // This fuction is calling its self
+    // animateSliderText();
+    // setInterval(animateSliderText, 3000);
 });
 </script>
 </html>
