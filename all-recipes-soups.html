@@ -27,7 +27,7 @@
 </head>
 <body>
     <!-- Header -->
-    <header>
+    <header class="scrollspy" id="header">
         <!-- Nav bar -->
         <div class="navbar-fixed">
             <nav class="white ">
@@ -278,6 +278,7 @@
                         <li><a href="all-recipes-cakes.html" class="black-text">Cakes</a></li>
                         <li><a href="all-recipes-chicken.html" class="black-text">Chicken</a></li>
                         <li><a href="#" class="black-text">Soups</a></li>
+                        <li><a href="#header" class="black-text">Back to top</a></li>
                     </ul>
                 </div>
                 <div class="col s12 m6 l3">
@@ -318,6 +319,8 @@
         $('.sidenav').sidenav();
 
         $('.materialboxed').materialbox();
+        
+        $('.scrollspy').scrollSpy();
     });
 </script>
 </html>
