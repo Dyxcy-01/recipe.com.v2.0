@@ -169,7 +169,7 @@ ul li a:hover,
     background-color: rgba(0, 0, 0, 0.849);
 }
 
-.my-modal a{
+.my-modal span{
     color: #fff;
     font-weight: bold;
     text-decoration: underline;

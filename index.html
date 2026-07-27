@@ -22,7 +22,7 @@
     <link rel="shortcut icon" href="images/rcon.png" type="image/x-icon">
 </head>
 <body>
-    <header>
+    <header class="scrollspy">
         <div class="navbar-fixed">
             <nav class="white ">
                 <a href="#sidenav" class="sidenav-trigger left hide-on-large-only">
@@ -42,7 +42,7 @@
                         </div>
                         <div class="col push-l3">
                             <ul class="">
-                                <li><a href="" class="orange-text text-darken-4">Who We Are</a></li>
+                                <li><a href="#who-we-are" class="orange-text text-darken-4">Who We Are</a></li>
                                 <li><a href="#category-section" class="orange-text text-darken-4">Find a Recipe</a></li>
                                 <li><a href="#expert-section" class="orange-text text-darken-4">Meet the Experts</a></li>
                                 <li><a href="#cliente-section" class="orange-text text-darken-4">Cliente</a></li>
@@ -60,7 +60,7 @@
 
         <!-- Mobile sidenav -->
         <ul class="sidenav" id="sidenav">
-            <li><a href="" class="orange-text text-darken-4">Who We Are</a></li>
+            <li><a href="#who-we-are" class="orange-text text-darken-4">Who We Are</a></li>
             <li><a href="#category-section" class="orange-text text-darken-4">Find a Recipe</a></li>
             <li><a href="#expert-section" class="orange-text text-darken-4">Meet the Experts</a></li>
             <li><a href="#cliente-section" class="orange-text text-darken-4">Cliente</a></li>
@@ -104,7 +104,7 @@
 
     <main>
         <!-- hero section (section 1)-->
-        <section class="hero-section" id="hero-section">
+        <section class="hero-section scrollspy" id="hero-section">
             <div class="container row">
                 <div class="col m8 l6">
                     <h2 class="hide-on-small-and-down">Start your culinary journey <span class="italic orange-text text-darken-4">today.</span></h2>
@@ -122,7 +122,7 @@
         </section>
 
         <!-- category (section 2)-->
-        <section class="category-section" id="category-section">
+        <section class="category-section scrollspy" id="category-section">
             <div class="container">
                 <div class="category-section-title">
                     <h2 class="hide-on-small-and-down">Select a <span class="italic orange-text text-darken-4">category</span></h2>
@@ -137,9 +137,9 @@
                                     <img src="images/cake-main.jpg" alt="Cake" class="responsive-img round-edge">
                                 </div>
                             </div>
-                            <div class="my-modal round-edge">
-                                <a href="all-recipes-cakes.html" class="">Cakes<i class="material-icons">call_made</i></a>
-                            </div>
+                            <a href="all-recipes-cakes.html" class="my-modal round-edge">
+                                <span>Cakes<i class="material-icons">call_made</i></span>
+                            </a>
                         </div>
                     </div>
                     <div class="col s12 m12 l4">
@@ -149,9 +149,9 @@
                                     <img src="images/chicken-main.jpg" alt="Cake" class="responsive-img round-edge">
                                 </div>
                             </div>
-                            <div class="my-modal round-edge">
-                                <a href="all-recipes-chicken.html" class="">Chicken<i class="material-icons">call_made</i></a>
-                            </div>
+                            <a href="all-recipes-chicken.html" class="my-modal round-edge">
+                                <span>Chicken<i class="material-icons">call_made</i></span>
+                            </a>
                         </div>
                     </div>
                     <div class="col s12 m12 l4 ">
@@ -161,9 +161,9 @@
                                     <img src="images/soup-main.jpg" alt="Cake" class="responsive-img  round-edge">
                                 </div>
                             </div>
-                            <div class="my-modal round-edge">
-                                <a href="all-recipes-soups.html" class="">Soups<i class="material-icons">call_made</i></a>
-                            </div>
+                            <a href="all-recipes-soups.html" class="my-modal round-edge">
+                                <span>Soups<i class="material-icons">call_made</i></span>
+                            </a>
                         </div>
                     </div>
                 </div>
@@ -212,8 +212,8 @@
             </div>
         </section>
 
-        <!-- section 3 -->
-        <section class="section-3">
+        <!-- section 3 (Who we are)-->
+        <section class="section-3 scrollspy" id="who-we-are">
             <div class="container">
                 <div class="row">
                     <div class="col s12 m4 l5">
@@ -221,8 +221,8 @@
                         <img src="images/chef-thumbs-up.jpg" alt="Chef" class="responsive-img hide-on-med-and-up">
                     </div>
                     <div class="s12 m8 l7">
-                        <h2 class="hide-on-small-and-down">Crafted by Culinary <span class="italic chef-color-text">Wizzards.</span></h2>
-                        <h4 class="hide-on-med-and-up center">Crafted by Culinary <span class="italic chef-color-text">Wizzards.</span></h4>
+                        <h2 class="hide-on-small-and-down">Crafted by Culinary <span class="italic chef-color-text">wizards.</span></h2>
+                        <h4 class="hide-on-med-and-up center">Crafted by Culinary <span class="italic chef-color-text">wizards.</span></h4>
                         <p>Discover a world of flavorful options that promise mouthwatering results, meticulously curated and perfected by culinary experts, all at your fingertips. Easy as pie, isn't it?</p>
                         <a href="#" class="btn-large start-cooking-btn chef-color">START COOKING</a>
                     </div>
@@ -231,7 +231,7 @@
         </section>
 
         <!-- sectooin 4 -->
-        <section class="section-4 black white-text">
+        <section class="section-4 black white-text scrollspy">
             <div class="container">
                 <div class="category-section-title">
                     <h2 class="center-align">See our <span class="italic orange-text text-darken-4">numbers</span></h2>
@@ -255,7 +255,7 @@
         </section>
 
         <!-- section 5 (Experts)-->
-        <section class="section-5" id="expert-section">
+        <section class="section-5 scrollspy" id="expert-section">
             <div class="container">
                 <h2 class="hide-on-small-and-down">Meet the <span class="italic orange-text text-darken-4">experts</span></h2>
                 <h4 class="hide-on-med-and-up center-align">Meet the <span class="italic orange-text text-darken-4">experts</span></h4>
@@ -318,12 +318,12 @@
         </section>
         
         <!-- section 6 (Clients) -->
-        <section class="section-6" id="cliente-section">
+        <section class="section-6 scrollspy" id="cliente-section">
             <div class="container">
                 <hr>
                 <div class="category-section-title">
-                    <h3 class="hide-on-small-and-down">Our Esteemed <span class="italic orange-text text-darken-4">Cliente</span></h3>
-                    <h4 class="hide-on-med-and-up center">Our Esteemed <span class="italic orange-text text-darken-4">Cliente</span></h4>
+                    <h3 class="hide-on-small-and-down">Our Esteemed <span class="italic orange-text text-darken-4">cliente</span></h3>
+                    <h4 class="hide-on-med-and-up center">Our Esteemed <span class="italic orange-text text-darken-4">cliente</span></h4>
                 </div>
                 <!-- Clients logo -->
                 <div class="row">
@@ -357,7 +357,7 @@
                 <div class="col s12 m6 l3">
                     <h6 class="orange-text text-darken-4">About</h6>
                     <ul>
-                        <li><a href="#" class="black-text">Who We Are</a></li>
+                        <li><a href="#who-we-are" class="black-text">Who We Are</a></li>
                         <li><a href="#expert-section" class="black-text">Meet the chefs</a></li>
                         <li><a href="#" class="black-text">FAQs</a></li>
                     </ul>
@@ -409,6 +409,7 @@ $(document).ready(()=>{
             interval: 3000
         }
     );
+    $('.scrollspy').scrollSpy();
 });
 </script>
 </html>
