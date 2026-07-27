@@ -149,13 +149,13 @@ ul li a:hover,
     justify-content: center;
 }
 
-.my-modal-container{
+.my-modal-container,.preloader-container-m{
     position: relative;
 }
 .my-modal-container:hover .my-modal{
     opacity: 1;
 }
-.my-modal{
+.my-modal, .pr-box{
     position: absolute;
     top: 0;
     left: 0;
